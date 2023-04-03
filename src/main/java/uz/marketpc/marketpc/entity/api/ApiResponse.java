@@ -1,4 +1,4 @@
-package uz.marketpc.marketpc.entity.apiResponse;
+package uz.marketpc.marketpc.entity.api;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
