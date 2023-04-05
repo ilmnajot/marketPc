@@ -21,7 +21,7 @@ public class Blogs {
 
     private String info;
 
-    @OneToOne(cascade = CascadeType.ALL,optional = false)
+    @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "attachment_id", referencedColumnName = "id")
     private Attachment attachment;
 }

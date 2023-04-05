@@ -19,7 +19,7 @@ public class AttachmentContent {
     @Column(name = "size")
     private Byte size;
 
-    @ManyToOne(optional = false, cascade = CascadeType.ALL)
+    @ManyToOne(cascade = CascadeType.ALL)
     @JoinColumn(name="attachment_id",referencedColumnName = "id")
     private Attachment attachment;
 
